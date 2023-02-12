@@ -1,0 +1,35 @@
+body {
+    background-color: salmon;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  h1 {
+    font-size: 36px;
+    color: darkorchid;
+  }
+  
+  .container {
+    text-align: center;
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  .box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .contact-box {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #f35e5e;
+    color: #a02554; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }

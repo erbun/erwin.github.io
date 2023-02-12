@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoBBlwXssqxqXgREkkGAZBqlsYTPbwRlU"></script>
+
+    <title>Kontakt</title>
+    <link rel="stylesheet" type="text/css" href="kontakt.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Kontakt</h1>
+      <div class="contact-box">
+        <p>Erwins Frisörsalong</p>
+        <p>Telefon: 07937582930</p>
+        <p>Email: boka@erwinsfrisorsalong.com</p>
+        <p>Adress: Frisörgatan 23, Erwintown</p>
+      </div>
+    </div>
+   <div id="map" style="width:43%; height:300px; margin: 0 auto;"></div>
+<script>
+  function initMap() {
+    var myLatLng = {lat: -53.089859, lng: 73.518313};
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 8,
+      center: myLatLng
+    });
+
+    var marker = new google.maps.Marker({
+      position: myLatLng,
+      map: map,
+      title: 'Erwintown'
+    });
+  }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoBBlwXssqxqXgREkkGAZBqlsYTPbwRlU&callback=initMap"></script>
+
+    <div class="box">
+      <a href="main.html">Om oss</a> | <a href="tjanster.html">Tjänster</a>
+    </div>
+  </body>
+</html>
+
+

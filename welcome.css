@@ -1,0 +1,14 @@
+body {
+    background-color: salmon;
+  }
+  
+  .container {
+    width: 50%;
+    margin: 180px auto;
+    text-align: center;
+  }
+
+  h1 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: darkorchid;
+  }
